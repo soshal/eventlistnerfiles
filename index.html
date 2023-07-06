@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <style>
+        
+        *{
+            margin: 0%;
+            padding: 0px;
+        }
+        h1{
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            background-color: burlywood;
+            padding: 30px;
+            margin: 0px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <h1 id="heading">Welcome</h1>
+    <div id="box">box1</div>
+    <button id="botton"> click me</button>
+</body>
+
+<script>
+    var heading = document.getElementById("heading");
+    var box = document.getElementById("box");
+    var botton = document.getElementById("botton");  
+
+
+    botton.addEventListener("click",()=>{
+    console.log("gotcha")
+})
+</script>
+</html>
